@@ -159,17 +159,17 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Solutions",          items: [
+          title: "Soluciones",          items: [
             {
-              label: "Audiovisual Equipment",              href: "#services"},
+              label: "Equipos Audiovisuales",              href: "#services"},
             {
-              label: "IT Infrastructure",              href: "#services"},
+              label: "Infraestructura IT",              href: "#services"},
             {
-              label: "Rental Solutions",              href: "#rental"},
+              label: "Soluciones de Alquiler",              href: "#rental"},
           ],
         },
         {
-          title: "Contact",          items: [
+          title: "Contacto",          items: [
             {
               label: "Bogotá, Colombia",              href: "#"},
             {
@@ -180,7 +180,7 @@ export default function LandingPage() {
         },
       ]}
       logoText="SYB Productividad"
-      copyrightText="© 2025 SYB Productividad Tecnológica. All Rights Reserved."
+      copyrightText="© 2025 SYB Productividad Tecnológica. Todos los derechos reservados."
     />
   </div>
       </ReactLenis>
