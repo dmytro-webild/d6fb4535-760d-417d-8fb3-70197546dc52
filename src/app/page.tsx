@@ -189,7 +189,7 @@ export default function LandingPage() {
           quote: "SYB transformed our office infrastructure completely. Reliable, professional, and fast.",
           name: "Carolina Gomez",
           role: "COO, FinanceCorp",
-          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=1",
         },
         {
           id: "t2",
@@ -221,7 +221,7 @@ export default function LandingPage() {
           quote: "Their proactive maintenance approach keeps our servers running 24/7 without issues.",
           name: "Julian Castro",
           role: "IT Director, MediaCorp",
-          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=2",
         },
       ]}
       title="What Enterprise Partners Say"
