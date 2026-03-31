@@ -127,7 +127,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          title: "Exceptional Service",          quote: "SYB transformed our office infrastructure completely. Reliable, professional, and fast.",          name: "Carolina Gomez",          role: "COO, FinanceCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg"},
+          id: "t1",          title: "Exceptional Service",          quote: "SYB transformed our office infrastructure completely. Reliable, professional, and fast.",          name: "Carolina Gomez",          role: "COO, FinanceCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=1"},
         {
           id: "t2",          title: "Highly Professional",          quote: "Their rental model saved our budget while keeping our tech current at all times.",          name: "Andres Rodriguez",          role: "CTO, LogisticSol",          imageSrc: "http://img.b2bpic.net/free-photo/blond-man-happy-expression_1194-2872.jpg"},
         {
@@ -135,7 +135,7 @@ export default function LandingPage() {
         {
           id: "t4",          title: "Seamless Installation",          quote: "Efficient project management and expert technical advice throughout.",          name: "Fernando Paz",          role: "Head of IT, TechHub",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-business-people-walking-talking_1262-20998.jpg"},
         {
-          id: "t5",          title: "Reliable Partner",          quote: "Their proactive maintenance approach keeps our servers running 24/7 without issues.",          name: "Julian Castro",          role: "IT Director, MediaCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg"},
+          id: "t5",          title: "Reliable Partner",          quote: "Their proactive maintenance approach keeps our servers running 24/7 without issues.",          name: "Julian Castro",          role: "IT Director, MediaCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=2"},
       ]}
       title="What Enterprise Partners Say"
       description="Empowering businesses through reliable, high-end technical support."
