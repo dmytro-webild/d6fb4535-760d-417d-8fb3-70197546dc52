@@ -2,9 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FeatureCardSixteen from '@/components/sections/feature/FeatureCardSixteen';
-import FooterBase from '@/components/sections/footer/FooterBase';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
@@ -31,13 +31,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "Inicio",          id: "hero"},
         {
-          name: "Services",          id: "services"},
+          name: "Servicios",          id: "services"},
         {
-          name: "Rental",          id: "rental"},
+          name: "Alquiler",          id: "rental"},
         {
-          name: "Contact",          id: "contact"},
+          name: "Contacto",          id: "contact"},
       ]}
       brandName="SYB"
     />
@@ -47,24 +47,24 @@ export default function LandingPage() {
       <HeroSplitDualMedia
       background={{
         variant: "rotated-rays-animated"}}
-      title="Elevating Operational Control Through High-Performance Tech"
-      description="SYB empowers your business with premium audiovisual, IT infrastructure, and security solutions. We turn complexity into productivity, ensuring your team operates at their full potential."
-      tag="Innovative Tech Solutions"
+      title="Elevando la productividad operativa con tecnología de alto rendimiento"
+      description="SYB impulsa su empresa con soluciones premium en audiovisual, infraestructura TI y seguridad. Convertimos la complejidad en productividad, asegurando que su equipo alcance su máximo potencial."
+      tag="Soluciones Tecnológicas Innovadoras"
       buttons={[
         {
-          text: "Request a Quote",          href: "#contact"},
+          text: "Solicitar Cotización",          href: "#contact"},
         {
-          text: "WhatsApp Us",          href: "https://wa.me/573000000000"},
+          text: "WhatsApp",          href: "https://wa.me/573000000000"},
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-data-center-operating-tablet-analyzing-metrics_482257-117980.jpg",          imageAlt: "High-tech operational infrastructure"},
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-data-center-operating-tablet-analyzing-metrics_482257-117980.jpg",          imageAlt: "Infraestructura tecnológica de alta tecnología"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-men-browsing-laptops-office_23-2147807983.jpg",          imageAlt: "Audiovisual professional setup"}
+          imageSrc: "http://img.b2bpic.net/free-photo/young-men-browsing-laptops-office_23-2147807983.jpg",          imageAlt: "Configuración profesional audiovisual"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
-      ratingText="Trusted by over 100+ Enterprise Clients"
+      ratingText="Con la confianza de más de 100 empresas en Colombia"
       tagIcon={Sparkles}
     />
   </div>
@@ -76,25 +76,25 @@ export default function LandingPage() {
       useInvertedBackground={true}
       negativeCard={{
         items: [
-          "Hardware Obsolescence",          "Inefficient IT Workflows",          "Security Vulnerabilities",          "Unreliable Maintenance Cycles"],
+          "Obsolescencia de Hardware",          "Flujos de TI ineficientes",          "Vulnerabilidades de seguridad",          "Ciclos de mantenimiento poco fiables"],
       }}
       positiveCard={{
         items: [
-          "Audiovisual: Video walls, Digital Signage & Projection",          "IT Infrastructure: Server optimization, UPS & Backup Systems",          "Security: Biometrics & Access Control Solutions",          "Commercial Tech: Hardware, Printing & Systems Support"],
+          "Audiovisual: Video Walls, Señalética Digital y Proyección",          "Infraestructura TI: Optimización de Servidores, UPS y Sistemas de Respaldo",          "Seguridad: Soluciones de Biometría y Control de Acceso",          "Tecnología Comercial: Hardware, Impresión y Soporte de Sistemas"],
       }}
-      title="Comprehensive Technological Solutions"
-      description="We specialize in high-end tech ecosystems designed to maximize your ROI and business efficiency."
+      title="Soluciones Tecnológicas Integrales"
+      description="Nos especializamos en ecosistemas tecnológicos de alta gama diseñados para maximizar su ROI y la eficiencia empresarial en toda Colombia."
     />
   </div>
 
   <div id="rental" data-section="rental">
       <TextAbout
       useInvertedBackground={false}
-      tag="Obsolescence Free Model"
-      title="The Strategic Advantage: Renting vs. Buying"
+      tag="Modelo Libre de Obsolescencia"
+      title="La ventaja estratégica: Alquiler vs. Compra"
       buttons={[
         {
-          text: "Learn Rental Benefits",          href: "#contact"},
+          text: "Conozca los Beneficios",          href: "#contact"},
       ]}
     />
   </div>
@@ -107,17 +107,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          brand: "SYB",          name: "Video Wall Pro System",          price: "Rental Options",          rating: 5,
+          id: "p1",          brand: "SYB",          name: "Sistema Pro de Video Wall",          price: "Opciones de Alquiler",          rating: 5,
           reviewCount: "12",          imageSrc: "http://img.b2bpic.net/free-photo/modern-workplace-with-beautiful-miniature-zen-garden-computer-room_632805-33.jpg"},
         {
-          id: "p2",          brand: "SYB",          name: "Enterprise Server Rack",          price: "Available",          rating: 5,
+          id: "p2",          brand: "SYB",          name: "Rack de Servidores Empresariales",          price: "Disponible",          rating: 5,
           reviewCount: "8",          imageSrc: "http://img.b2bpic.net/free-photo/business-people-posing-smiling-meeting-room_1262-814.jpg"},
         {
-          id: "p3",          brand: "SYB",          name: "Biometric Control Node",          price: "Ask for Quote",          rating: 5,
+          id: "p3",          brand: "SYB",          name: "Nodo de Control Biométrico",          price: "Solicite cotización",          rating: 5,
           reviewCount: "21",          imageSrc: "http://img.b2bpic.net/free-photo/employee-working-marketing-setting_23-2151871176.jpg"},
       ]}
-      title="Premium Solutions Showcase"
-      description="Equipping your enterprise with the best in class hardware."
+      title="Exhibición de Soluciones Premium"
+      description="Equipamos a su empresa con el mejor hardware de su clase."
     />
   </div>
 
@@ -127,60 +127,61 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          title: "Exceptional Service",          quote: "SYB transformed our office infrastructure completely. Reliable, professional, and fast.",          name: "Carolina Gomez",          role: "COO, FinanceCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=1"},
+          id: "t1",          title: "Servicio Excepcional",          quote: "SYB transformó nuestra infraestructura de oficina por completo. Fiables, profesionales y rápidos.",          name: "Carolina Gomez",          role: "COO, FinanceCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=1"},
         {
-          id: "t2",          title: "Highly Professional",          quote: "Their rental model saved our budget while keeping our tech current at all times.",          name: "Andres Rodriguez",          role: "CTO, LogisticSol",          imageSrc: "http://img.b2bpic.net/free-photo/blond-man-happy-expression_1194-2872.jpg"},
+          id: "t2",          title: "Altamente Profesional",          quote: "Su modelo de alquiler protegió nuestro presupuesto manteniendo nuestra tecnología siempre actualizada.",          name: "Andres Rodriguez",          role: "CTO, LogisticSol",          imageSrc: "http://img.b2bpic.net/free-photo/blond-man-happy-expression_1194-2872.jpg"},
         {
-          id: "t3",          title: "Game Changer",          quote: "Best support team in Colombia. Truly focused on productivity.",          name: "Elena Martinez",          role: "CEO, RetailGlobal",          imageSrc: "http://img.b2bpic.net/free-photo/manager-supervising-work-server-room-engineer-using-ai-review-infrastructure-diagnostics_482257-136307.jpg"},
+          id: "t3",          title: "Un cambio de juego",          quote: "El mejor equipo de soporte en Colombia. Realmente enfocados en la productividad.",          name: "Elena Martinez",          role: "CEO, RetailGlobal",          imageSrc: "http://img.b2bpic.net/free-photo/manager-supervising-work-server-room-engineer-using-ai-review-infrastructure-diagnostics_482257-136307.jpg"},
         {
-          id: "t4",          title: "Seamless Installation",          quote: "Efficient project management and expert technical advice throughout.",          name: "Fernando Paz",          role: "Head of IT, TechHub",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-business-people-walking-talking_1262-20998.jpg"},
+          id: "t4",          title: "Instalación impecable",          quote: "Gestión eficiente del proyecto y asesoramiento técnico experto durante todo el proceso.",          name: "Fernando Paz",          role: "Head of IT, TechHub",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-business-people-walking-talking_1262-20998.jpg"},
         {
-          id: "t5",          title: "Reliable Partner",          quote: "Their proactive maintenance approach keeps our servers running 24/7 without issues.",          name: "Julian Castro",          role: "IT Director, MediaCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=2"},
+          id: "t5",          title: "Socio confiable",          quote: "Su enfoque proactivo de mantenimiento mantiene nuestros servidores funcionando 24/7.",          name: "Julian Castro",          role: "IT Director, MediaCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12811.jpg?_wi=2"},
       ]}
-      title="What Enterprise Partners Say"
-      description="Empowering businesses through reliable, high-end technical support."
+      title="Lo que dicen nuestros socios"
+      description="Impulsando empresas mediante soporte técnico confiable y de alta gama."
     />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCenter
+      <ContactSplit
       useInvertedBackground={true}
       background={{
         variant: "sparkles-gradient"}}
-      tag="Let's Talk"
-      title="Request a Professional Quote"
-      description="Ready to modernize your operations? Our expert consultants in Bogotá are ready to help."
-      inputPlaceholder="Enter your professional email"
-      buttonText="Schedule a Consultation"
+      tag="Hablemos"
+      title="Solicite su cotización profesional"
+      description="¿Listo para modernizar sus operaciones? Nuestros consultores expertos en Bogotá están listos para ayudarle a optimizar su infraestructura en toda Colombia."
+      inputPlaceholder="Correo electrónico corporativo"
+      buttonText="Programar Consulta"
+      termsText="Al hacer clic en enviar, acepta nuestros términos y condiciones de servicio local."
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBase
+      <FooterSimple
       columns={[
         {
           title: "Soluciones",          items: [
-            {
-              label: "Equipos Audiovisuales",              href: "#services"},
-            {
-              label: "Infraestructura IT",              href: "#services"},
-            {
-              label: "Soluciones de Alquiler",              href: "#rental"},
-          ],
+            { label: "Equipos Audiovisuales", href: "#services" },
+            { label: "Infraestructura TI", href: "#services" },
+            { label: "Soluciones de Alquiler", href: "#rental" }
+          ]
         },
         {
           title: "Contacto",          items: [
-            {
-              label: "Bogotá, Colombia",              href: "#"},
-            {
-              label: "WhatsApp: +57 300 000 0000",              href: "https://wa.me/573000000000"},
-            {
-              label: "contacto@syb.com",              href: "mailto:contacto@syb.com"},
-          ],
+            { label: "Bogotá, Colombia" },
+            { label: "WhatsApp: +57 300 000 0000", href: "https://wa.me/573000000000" },
+            { label: "contacto@syb.com", href: "mailto:contacto@syb.com" }
+          ]
         },
+        {
+          title: "Legal",          items: [
+            { label: "Términos y Condiciones" },
+            { label: "Política de Privacidad" }
+          ]
+        }
       ]}
-      logoText="SYB Productividad"
-      copyrightText="© 2025 SYB Productividad Tecnológica. Todos los derechos reservados."
+      bottomLeftText="© 2025 SYB Productividad Tecnológica. Todos los derechos reservados."
+      bottomRightText="Soporte Técnico Especializado en Colombia"
     />
   </div>
       </ReactLenis>
